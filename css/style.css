@@ -1321,7 +1321,7 @@ button:focus {
 }
 
 .circles-text {
-    font-size: 36px !important;
+    font-size: 26px !important;
     color: #202020;
     font-weight: 500;
 }
@@ -1334,8 +1334,8 @@ button:focus {
 #canvas .circle {
     display: inline-block;
     margin: 1em;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 #canvas h5 {
@@ -1344,7 +1344,7 @@ button:focus {
 }
 
 #circles-1 {
-    /* background-image: url(../images/content/progress_1.png); */
+    background-image: url(../images/content/progress_1.png);
     border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -1352,7 +1352,7 @@ button:focus {
 }
 
 #circles-2 {
-    /* background-image: url(../images/content/progress_2.png); */
+    background-image: url(../images/content/progress_2.png);
     border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -1360,7 +1360,7 @@ button:focus {
 }
 
 #circles-3 {
-    /* background-image: url(../images/content/progress_3.png); */
+    background-image: url(../images/content/progress_3.png);
     border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -1368,13 +1368,68 @@ button:focus {
 }
 
 #circles-4 {
-    /* background-image: url(../images/content/progress_4.png); */
+    background-image: url(../images/content/progress_4.png);
     border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+#circles-5 {
+    background-image: url(../images/content/progress_5.png);
+    border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#circles-6 {
+    background-image: url(../images/content/progress_6.png);
+    border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#circles-7 {
+    background-image: url(../images/content/progress_7.png);
+    border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#circles-8 {
+    background-image: url(../images/content/progress_8.png);
+    border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#circles-9 {
+    background-image: url(../images/content/progress_9.png);
+    border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#circles-10 {
+    background-image: url(../images/content/progress_10.png);
+    border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#circles-11 {
+    background-image: url(../images/content/progress_11.png);
+    border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#circles-12 {
+    background-image: url(../images/content/progress_12.png);
+    border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .circles-decimals {
     font-size: .4em;
 }
