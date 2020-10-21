@@ -193,28 +193,6 @@
             });
             return check;
         }
-        // $(".submitForm").on("click", function(e) {
-        //     // e.preventDefault();
-        //     var _this = $(this);
-        //     var targetForm = _this.closest('form');
-        //     var errroTarget = targetForm.find('.response');
-        //     var check = checkRequire(targetForm, errroTarget);
-        //     if (check == 0) {
-        //         targetForm.find('input').val('');
-        //         targetForm.find('textarea').val('');
-        //         errroTarget.html('<p style="color:green;">Mail has been sent successfully.</p>');
-        //         var formDetail = new FormData(targetForm[0]);
-        //         formDetail.append('form_type', _this.attr('form-type'));
-        //         $.ajax({
-        //             method: 'post',
-        //             url: 'https://formspree.io/mqkynnep',
-        //             data: formDetail,
-        //             cache: false,
-        //             contentType: false,
-        //             processData: false
-        //         })
-        //     }
-        // });
         $(".submitForm").on("click", function(e) {
             e.preventDefault();
             var _this = $(this);
