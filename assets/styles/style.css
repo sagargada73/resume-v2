@@ -3391,7 +3391,7 @@ button:focus {
   background: linear-gradient(300deg, rgba(255, 218, 109, 0.25) 0%, rgba(255, 189, 94, 0) 59.86%), #202021;
   transition: .5s;
 }
-.box:hover {
+.box:hover.icon-box {
   background:  linear-gradient(340deg, #FFDA6D 0%, rgba(255, 191, 96, 0) 50%);
   transition: .5s;
 }
