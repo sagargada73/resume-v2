@@ -451,27 +451,26 @@ $(document).ready(function() {
             submitForm();
         }
     });
-
+    
     function submitForm(){
         var name = $("#nameContact").val(),
             email = $("#emailContact").val(),
             message = $("#messageContact").val();
 			
-        var url = "assets/php/form-contact.php";
-		
-        $.ajax({
-            type: "POST",
-            url: url,
-            data: "name=" + name + "&email=" + email + "&message=" + message,
-            success : function(text){
-                if (text == "success"){
-                    formSuccess();
-                } else {
-                    formError();
-                    submitMSG(false,text);
-                }
-            }
-        });
+        var templateParams = {
+          name: name,
+          email: email,
+          message:message
+      };
+      emailjs.send('service_va9rtup', 'template_9gba7TZa', templateParams)
+      .then(function(response) {
+         console.log('SUCCESS!', response.status, response.text);
+         formSuccess();
+      }, function(error) {
+         console.log('FAILED...', error);
+         formError();
+        submitMSG(false,text);
+      });
     }
 
     function formSuccess(){
